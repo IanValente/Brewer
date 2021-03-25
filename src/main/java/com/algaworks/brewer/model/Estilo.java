@@ -10,15 +10,12 @@ import javax.persistence.Id;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
-
-import javassist.SerialVersionUID;
-
 @Entity
 @Table(name = "estilo")
 public class Estilo implements Serializable{
 	
-	private static final long SerialVersionUID = 1L;
-	
+	private static final long serialVersionUID = 1L;
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long codigo;
