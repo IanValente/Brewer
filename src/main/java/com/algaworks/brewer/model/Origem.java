@@ -1,7 +1,7 @@
 package com.algaworks.brewer.model;
 
 public enum Origem {
-	NACIONAL("Nacional"), INTERNACIONAL("Internacional");
+	NACIONAL("Nacional"), INTERNACIONAL("Internacional"), DESCONHECIDA("Desconhecida");
 
 	private String descricao;
 
